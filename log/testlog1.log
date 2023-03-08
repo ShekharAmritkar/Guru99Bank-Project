@@ -44,3 +44,22 @@
 2023-03-08 11:44:25,952 [main] INFO ebanking - providing customer details
 2023-03-08 11:44:35,155 [main] INFO ebanking - validation is started
 2023-03-08 11:44:35,184 [main] INFO ebanking - test case passed !!
+2023-03-08 12:15:19,312 [main] INFO ebanking - URL is launched
+2023-03-08 12:15:19,768 [main] INFO ebanking - Entered username
+2023-03-08 12:15:19,935 [main] INFO ebanking - Entered password
+2023-03-08 12:15:21,809 [main] INFO ebanking - login test is passed
+2023-03-08 12:15:34,934 [main] INFO ebanking - username provided
+2023-03-08 12:15:35,108 [main] INFO ebanking - password provided
+2023-03-08 12:15:37,289 [main] INFO ebanking - Login passed
+2023-03-08 12:15:39,932 [main] INFO ebanking - username provided
+2023-03-08 12:15:40,038 [main] INFO ebanking - password provided
+2023-03-08 12:15:42,192 [main] INFO ebanking - username provided
+2023-03-08 12:15:42,292 [main] INFO ebanking - password provided
+2023-03-08 12:15:44,416 [main] INFO ebanking - username provided
+2023-03-08 12:15:44,711 [main] INFO ebanking - password provided
+2023-03-08 12:15:55,743 [main] INFO ebanking - URL is launched
+2023-03-08 12:15:56,109 [main] INFO ebanking - username is provided
+2023-03-08 12:15:56,322 [main] INFO ebanking - password is provided
+2023-03-08 12:16:11,844 [main] INFO ebanking - providing customer details
+2023-03-08 12:16:21,701 [main] INFO ebanking - validation is started
+2023-03-08 12:16:21,717 [main] INFO ebanking - test case passed !!
