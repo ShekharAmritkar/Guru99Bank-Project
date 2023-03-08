@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="76.155" tests="7" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.7\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.7/conf"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.7"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\91758"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="SHEKHAR"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\91758\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="D:\SHEKHAR\TestingShastra\Practice\Guru99Bank-Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\SHEKHAR\TestingShastra\Practice\Guru99Bank-Project"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-19\bin;C:\apache-maven-3.8.7\bin;C:\Program Files\nodejs\node_modules;C:\allure-2.21.0\bin;C:\Program Files\Git\cmd;C:\Users\91758\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\91758\AppData\Local\Programs\Python\Python311\;C:\Users\91758\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.4\bin;C:\Users\91758\AppData\Roaming\npm;C:\Users\91758\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.7\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.7\lib\jansi-native"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.banking.testCases.TC_LoginTest_001" time="4.261"/>
+  <testcase name="loginDDT" classname="com.banking.testCases.TC_LoginDDT_002" time="6.102"/>
+  <testcase name="loginDDT" classname="com.banking.testCases.TC_LoginDDT_002" time="2.443">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.banking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- username provided
+ INFO [main] (TC_LoginDDT_002.java:23)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.banking.testCases.TC_LoginDDT_002" time="3.041">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.banking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- username provided
+ INFO [main] (TC_LoginDDT_002.java:23)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.banking.testCases.TC_LoginDDT_002" time="3.097">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.banking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:29)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_LoginDDT_002.java:21)- username provided
+ INFO [main] (TC_LoginDDT_002.java:23)- password provided
+]]></system-out>
+  </testcase>
+  <testcase name="loginDDT" classname="com.banking.testCases.TC_LoginDDT_002" time="0.382">
+    <failure message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at com.banking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:20)
+</failure>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.banking.testCases.TC_AddCustomerTest_003" time="9.598">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;name&apos;]&quot;}&#10;  (Session info: chrome=110.0.5481.178)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1dbd74ecc638130446dd423f2be2d1dc, findElement {using=xpath, value=//input[@name=&apos;name&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\91758\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59246/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1dbd74ecc638130446dd423f2be2d1dc" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1dbd74ecc638130446dd423f2be2d1dc, findElement {using=xpath, value=//input[@name='name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\91758\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59246/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dbd74ecc638130446dd423f2be2d1dc
+	at com.banking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:51)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_AddCustomerTest_003.java:18)- URL is launched
+ INFO [main] (TC_AddCustomerTest_003.java:22)- username is provided
+ INFO [main] (TC_AddCustomerTest_003.java:24)- password is provided
+ INFO [main] (TC_AddCustomerTest_003.java:49)- providing customer details
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 25784
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1678261213.926][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+]]></system-err>
+  </testcase>
+</testsuite>
